@@ -1,0 +1,39 @@
+    .wrapper h2{
+      margin-top: -10px;
+      font-family: Mali;
+      font-size: 25px;
+      font-weight: bold;
+      color: #FFFC00;
+    }
+
+  .product2{
+    height: 150px;
+    text-align: center;
+}
+
+    .pr_menu{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: -45px;
+    float: left;
+    padding: -20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.li_menu{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+    ul.li_menu a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #C00A27;
+    display block;
+    margin-left: 40px;
+    font-family: 'Mali';
+    font-size: 22px;
+    
+}

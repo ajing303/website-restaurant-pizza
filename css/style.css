@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 0;
+    height: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.menu{
+    border-top: 1px solid #C00A27;
+    height: 90px;
+    width: 100%;
+    background-color: #C00A27;
+}
+.list_menu {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-top: 15px;
+  display: inline;
+}
+.list_menu li{
+  padding: 5px; 
+  padding-right: 0px;
+  margin: 0px;
+  float: left;
+  border-right: 1px solid #A9001B;
+
+}
+.list_menu li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.find{
+    height: 300px;
+    width: 100%;
+    background: url(../images/heroimage.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size : cover;
+}
+.find .content{
+    color: white;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    left: 5%;
+}
+.form_code .post_code{
+    border:none;
+    outline: none;
+    width: 60%;
+    border-radius: 2rem;
+    padding: .6rem;
+}
+.form_code  button{
+    border:none;
+    outline: none;
+    width: 25%;
+    border-radius: 2rem;
+    padding: .6rem;
+}
+#main{
+    border:0;
+    height: 1640px;
+    width: 100%;
+}
+}
+.sidebar{
+    border: 1px solid #66FF99;
+    height: 300px;
+    width: 100%;
+}
+.maincontent{
+    border: 0;
+    height: 500px;
+    width: 100%;
+}
+.product_list{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    list-style: none;
+    width: 100%; 
+}
+.product_list li{
+    margin-top:22px; 
+    width: 18%;
+    border: 1px dashed #000;
+    margin-left: 22px;
+    float: left;
+    height: 300px;
+}
+.product_list li img{
+    width: 100%
+}
+.product_list .title_product{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.price_product{
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    border: 1px solid #202;
+    height: 150px;
+    width: 100%;
+
+}
+.maincontent{
+  
+    /* text-align: center; */
+    height: auto;
+    /* width: 100%; */
+  
+  
+}
+.product_list{
+    padding: 0;
+    margin: 0;
+    padding-left: 8%;
+    list-style: none;
+    width: 100%; 
+}
+.product_list li{
+    margin-top:22px; 
+    width: 20%;
+    border: 0.5px outset #C00A27;
+    margin-left: 2%;
+    float: left;
+    height: 290px;
+  }
+.product_list li img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.btn{
+    margin-top: -22px;
+    margin-left: 5px;
+  }
+  .btn .themgiohang{
+    border:none;
+    outline: none;
+    width: 100%;
+    color: white;
+    border-radius: 1.5rem;
+    padding: .2rem;
+    margin-left: 45px;
+    background: #C00A27;
+  }
+  .product_list .title_product{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Mali;
+  }
+.price_product{
+    text-align: center;
+    color: #C00A27;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Mali;
+    margin-top: -20px;
+  }
+
+ul.food{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    border: 1px;
+    margin-left: 25px;
+
+}
+
+ul.food li{
+  text-align: center;
+    width: 30%;
+    border: 1px solid #ddd;
+    margin: 10px;
+    float: left;
+ 
+    text-decoration: none
+    height 350px;
+}
+
+/* ul.food li img{
+   
+   
+    height: 190px;
+} */
+
+ul.food li a{
+  
+    text-decoration: none
+   
+}
+
+
+ul.food li img{
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  height: 190px;
+}
+
+/* gia */
+
+p.ten{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    
+}
+p.gia{
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+ul.ten li{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: none;
+    
+}
+
+  hr {
+    width: 30%;
+    margin: 20px 0;
+    border: 2px solid #f7767d;
+    position: relative;
+    overflow: visible;
+    margin-left: 35%;
+}       
+hr:after {
+    content: "";
+    border: 2px solid #C00A27;
+    position: absolute;
+    width: 50%;
+    top: -2px;
+    animation: anim-hr 5s linear infinite; 
+}
+.product{
+    height: 150px;
+    text-align: center;
+}
+.pr_menu{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: -45px;
+    float: left;
+    padding: -20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.li_menu{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+h1{
+    text-decoration: none;
+}
+ul.li_menu a{
+    text-align: center;
+    text-decoration: none;
+    color: #C00A27;
+    display block;
+    margin-left: 40px;
+    font-family: 'Dancing Script';    
+}
+
+ul.li_menu a:hover {
+   color: #E7AD0C;
+
+}
+.hinhanh_sanpham{
+    /* background: #FFFFE0; */
+    margin-left: 50px;
+    float:left;
+    width:25%;
+    text-align: center;
+}
+
+.chitiet_sanpham{
+    margin: 5px;
+    /* background: #FFFFE0; */
+    float:left;
+    width:49%;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.chitietsp{
+    text-align: center;
+    color: cornflowerblue;
+    font-size:xx-large;
+}
+.header button{
+  margin-top: 0;
+  height: 62px;
+}
+.h2-dangky {
+    text-align: center;
+    color: red;
+}
+
+    .th1 {
+        text-align: inherit;
+        color: red;
+    }
+
+    .nut{
+        background-color: #c8c5c5;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        cursor: pointer;
+        margin-right: 25px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .mau_nut{
+        font-size: 12px;
+    padding: 4px 10px;
+    background: #b9b9b9;
+    color: #1d1b1b ;
+    height: auto;
+    width: auto;
+    font-weight: 400;
+    border-radius: 15px;
+    }
+    .mau_nut1{
+        font-size: 12px;
+        padding: 7px 15px;
+        background: #c10b0b;
+        color: #e3dada;
+        height: auto;
+        width: auto;
+        font-weight: bold;
+        border-radius: 15px
+    }
+
+    .row2{
+        border-top: 2px solid #b1154a;
+border-bottom: 2px solid #b1154a;
+    }

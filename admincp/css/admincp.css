@@ -1,0 +1,31 @@
+.menumain .admincp_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.menumain .admincp_list li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+h3.title_admin{
+    text-align: center;
+    font-size: 40px;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    margin:0 auto;
+}
+.clear{
+    clear: both;
+}
